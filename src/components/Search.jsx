@@ -13,7 +13,8 @@ function Search(props) {
             <div>
                 Cari artikel : <input onChange={onChangeSearch} ></input>
             </div>
-            <small>Ditemukan 0 data dengan pencarian kata {keyword}</small>
+            {props.totalPost ? <small>Found {props.totalPost} article with keyword {keyword}</small> : "No article found!"}
+            
         </>
     );
 }

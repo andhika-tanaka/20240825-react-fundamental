@@ -2,16 +2,19 @@
     {
         "title": "ReactJS Full Tutorial",
         "tags": ["react", "frontend"],
-        "date": "2024-01-01"
+        "date": "2024-01-01",
+        "isNew": false
     },
     {
         "title": "Increasing ReactJS Performance",
         "tags": ["react", "frontend"],
-        "date": "2024-01-02"
+        "date": "2024-01-02",
+        "isNew": false
     },
     {
         "title": "Using Chackra-UI in ReactJS",
         "tags": ["react", "css"],
-        "date": "2024-01-03"
+        "date": "2024-01-03",
+        "isNew": true
     }    
 ]
