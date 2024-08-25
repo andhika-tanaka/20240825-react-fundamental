@@ -1,11 +1,9 @@
-/* eslint-disable react/prop-types */
-
 function Article (props) {
     
     return (
         <>
-            <div>{props.name}</div>
-            <div>{props.titles.map((title) => <div key= {title}>{title}</div>)}</div>
+            <h3>{props.title}</h3>
+            <small>Date : {props.date}, Tags : {props.tags.join(", ")}</small>
         </>
     )
 }

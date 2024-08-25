@@ -1,11 +1,13 @@
 import './App.css'
-import Article from './components/Article'
+import Home from './pages/Index'
 
 function App() {
   return (
     <div className="App">
-      <Article name="Andhika" titles={["NextJS, ReactJS, NodeJS"]}/>
-      <Article name="Tanaka" titles={["NextJS, ReactJS, NodeJS"]}/>
+
+      <>
+      <Home />
+      </>
     </div>
   )
 }
