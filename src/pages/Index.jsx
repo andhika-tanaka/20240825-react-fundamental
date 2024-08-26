@@ -22,6 +22,10 @@ function Home() {
             .then((json) => setExtPosts(json));
     }, []);
 
+    useEffect(()=> {
+        console.log("There's a new post")
+    }, [posts])
+
 
     return (
         <>
