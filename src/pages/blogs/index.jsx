@@ -1,15 +1,8 @@
-import { useEffect, useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useLoaderData } from 'react-router-dom';
 
 function Blog() {
-    const [posts, setPosts] = useState([]);
-
-    useEffect(() => {
-        fetch('https://jsonplaceholder.typicode.com/posts')
-            .then((response) => response.json())
-            .then((json) => setPosts(json));
-    }, []);
-
+    const posts = useLoaderData();
+    
     return (
         <>
             <h2>External Post</h2>
